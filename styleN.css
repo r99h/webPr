@@ -1,0 +1,85 @@
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+  font-family: 'Suisse';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff
+);
+  font-family: 'Suisse';
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #323131;
+  color: white;
+  position: relative;
+  max-width: 540px;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: 'Suisse';
+  box-sizing: border-box;
+  padding: 36px;
+  background-image: 'https://wmpics.pics/di-IRNTK.png';
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  right: 100px;
+}
+
+
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 5px;
+  margin-bottom: 5px;
+  padding-right: 50px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  padding-right: 5px;
+  padding-top: 15px;
+  min-inline-size: 50px;
+  position: relative;
+}
+.button:hover {
+  opacity: 0.5;
+}
+
+.image {
+  width: 100%;
+  margin: 60px auto 50px;
+}
+
+.advice {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-left: auto;
+}
+
+.footer {
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  bottom: 36px;
+  padding-right: 1000px;
+}
